@@ -1,15 +1,15 @@
-## Flight-Price-Prediction
+#Flight-Price-Prediction
 
-# Files
+## Files
 - notebook.ipynb: Jupyter Notebook containing the code and analysis for the project.
 - data.xlsx: Excel file containing the dataset used in the analysis.
   
-# Dependencies
+## Dependencies
 - Python 3
 - Jupyter Notebook
 - Libraries: numpy, pandas, seaborn, matplotlib
 
-# What we will see in this Notebook
+## What we will see in this Notebook
 - Problem Statement
 - Importing Libraries
 - Loading the dataset
@@ -53,12 +53,12 @@ I have build an ML model that predicts flight ticket prices based on various ind
 
 - *Additinal_Info:* In this column, we will get information about food, kind of food, and other amenities.
 
-Model	Accuracy
-0	K-Nearest Neighbour	58.784150
-1	Decision Tree	67.765084
-2	Random Forest	80.138329
+#Model	Accuracy
+- 	K-Nearest Neighbour	58.784150
+- 	Decision Tree	67.765084
+- 	Random Forest	80.138329
 
-For Random Forest Regressor,
+#For Random Forest Regressor
 - Before hyper tuning, R2 score = 80 %
 - After hyper tuning, R2 score = 82 % 
 - The value of MAE drops as well, indicating that we are successful in tunning our model.
@@ -71,6 +71,6 @@ For Random Forest Regressor,
   - Random Forest Regressor
 - Evaluation metrics: Mean Absolute Error, Mean squared Error, R2 Score
 
-##### Conclusion
+## Conclusion
 
 We have used random forest regressor for training the model and improved its accuracy by doing hyperparameter tuning. As a result, we have trained our **Random Forest Regression model**, to forecast fares of flight tickets, with an R2 score of 82 %.
