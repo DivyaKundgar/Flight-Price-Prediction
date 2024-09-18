@@ -1,4 +1,4 @@
-#Flight-Price-Prediction
+# Flight-Price-Prediction
 
 ## Files
 - notebook.ipynb: Jupyter Notebook containing the code and analysis for the project.
@@ -23,10 +23,10 @@
 - Hyperparameter Tuning
 - Conclusion
 
-### Problem Statement
+##Problem Statement
 I have build an ML model that predicts flight ticket prices based on various independent features, using a dataset of flight ticket prices. The dataset includes prices for various airlines and cities. The prediction results can be beneficial for both travelers, who can use it to make informed decisions about their travel, and for airlines, who can use it to forecast competitors' rates and adjust their pricing strategies to maximize revenue while remaining competitive.
 
-# Domain Analysis
+##Domain Analysis
 *In the domain analysis for the Flight price prediction project, key columns such as 'Airline',
 'Date_of_Journey','Source','Destination','Route','Total_Stops','Additional_Info','Price','Dep_Time', 
 'Arrival_Time', 'Duration' and 'Price' play pivotal roles in shapping Flight Prediction Outcomes.*
@@ -53,17 +53,17 @@ I have build an ML model that predicts flight ticket prices based on various ind
 
 - *Additinal_Info:* In this column, we will get information about food, kind of food, and other amenities.
 
-#Model	Accuracy
+##Model	Accuracy
 - 	K-Nearest Neighbour	58.784150
 - 	Decision Tree	67.765084
 - 	Random Forest	80.138329
 
-#For Random Forest Regressor
+##For Random Forest Regressor
 - Before hyper tuning, R2 score = 80 %
 - After hyper tuning, R2 score = 82 % 
 - The value of MAE drops as well, indicating that we are successful in tunning our model.
 
-#Results
+##Results
 - The analysis includes exploratory data analysis, feature engineering, model trainning and evaluation. 
 - For predicting the Price, we build 3 models using the following algorithms: 
   - K neighnors regressor
